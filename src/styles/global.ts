@@ -1,8 +1,8 @@
-import {StyleSheet} from 'react-native';
+import styled from 'styled-components/native';
 
-export const global = StyleSheet.create({
-  button: {
-    fontSize: 12,
-    borderRadius: 4,
-  },
-});
+export const Text = styled.Text`
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+`;
